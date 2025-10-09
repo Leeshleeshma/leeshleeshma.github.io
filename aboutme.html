@@ -13,7 +13,7 @@
 <body>
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Leeshma Adari</a>
+        <a class="navbar-brand text-focus-in" href="#">Leeshma Adari</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,7 +32,7 @@
     <div class="portrait-wrap">
     <figure class="portrait" aria-hidden="false">
     <!-- use the image you uploaded -> adjust path if needed -->
-    <img src="" alt="Profile photo">
+    <img src="IMG_0718.jpeg" alt="Profile photo">
     </figure>
     </div>
 
@@ -40,19 +40,132 @@
     <div class="info">
     <p class="eyebrow">Hello — I'm</p>
     <h1 class="name">Leeshma Adari</h1>
-    <p class="role">software Developer</p>
+    <h2 class="role">Software Developer</h2>
 
 
     <p class="bio">I build clean, usable interfaces and Salesforce automations. I love turning business requirements into reliable flows, components, and small apps. Currently working on multi‑tiered LWC dashboards and integrations — always learning data structures and real‑world engineering.</p>
 
 
     <div class="actions">
-    <button class="btn btn-primary" onclick="window.open('#contact','_self')">Contact Me</button>
+    <button class="btn btn-primary">Contact Me</button>
     <a class="btn btn-outline" href="#" download="Leeshma_Resume.pdf">Download CV</a>
     </div>
 </main>
 </div>
-</body>
+<section id="tech-skills" class="tech-skills" aria-labelledby="tech-skills-title">
+  <div class="container-skills">
+    <h2 id="tech-skills-title">Tech Skills</h2>
+    <p class="skills-intro">Tools & technologies I use regularly — a quick snapshot of proficiency.</p>
+
+    <div class="skills-grid" role="list">
+      <!-- Skill item: change --pct value to update the bar -->
+      <div class="skill" role="listitem" aria-label="HTML — 95 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">H</div>
+          <div class="skill-meta">
+            <div class="skill-name">HTML</div>
+            <div class="skill-score">95%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg" aria-hidden="true">
+          <div class="skill-bar" style="--pct:95%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="CSS — 90 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">C</div>
+          <div class="skill-meta">
+            <div class="skill-name">CSS</div>
+            <div class="skill-score">90%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:90%;" aria-valuenow="90"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="JavaScript — 85 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">JS</div>
+          <div class="skill-meta">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-score">85%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:85%;" aria-valuenow="85"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="React — 80 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">R</div>
+          <div class="skill-meta">
+            <div class="skill-name">React</div>
+            <div class="skill-score">80%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:80%;" aria-valuenow="80"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="Apex — 83 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">A</div>
+          <div class="skill-meta">
+            <div class="skill-name">Apex</div>
+            <div class="skill-score">83%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:75%;" aria-valuenow="75"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="Salesforce — 80 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">S</div>
+          <div class="skill-meta">
+            <div class="skill-name">Salesforce</div>
+            <div class="skill-score">80%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:80%;" aria-valuenow="80"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="Lightning Web Components — 78 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">L</div>
+          <div class="skill-meta">
+            <div class="skill-name">LWC</div>
+            <div class="skill-score">78%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:78%;" aria-valuenow="78"></div>
+        </div>
+      </div>
+
+      <div class="skill" role="listitem" aria-label="Git — 85 percent">
+        <div class="skill-head">
+          <div class="skill-icon" aria-hidden="true">G</div>
+          <div class="skill-meta">
+            <div class="skill-name">Git</div>
+            <div class="skill-score">85%</div>
+          </div>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar" style="--pct:85%;" aria-valuenow="85"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer class="site-footer" role="contentinfo">
   <div class="footer-inner">
     <div class="brand">
@@ -66,7 +179,7 @@
     <nav class="footer-links" aria-label="Footer">
       <a href="aboutme.html">About</a>
       <a href="blog.html">Blog</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
 
     <div class="footer-social" aria-hidden="true">
@@ -87,4 +200,5 @@
     <small>© 2025 Leeshma Adari — Built with ♥</small>
   </div>
 </footer>
+</body>
 </html>
